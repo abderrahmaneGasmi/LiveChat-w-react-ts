@@ -1,0 +1,49 @@
+.none {
+  display: none;
+}
+.notification {
+  left: 50%;
+  font-size: 1.5rem;
+  top: 15%;
+  text-transform: uppercase;
+  font-weight: bold;
+  transform: translateX(-50%);
+  z-index: 999;
+  color: var(--secondary-color);
+}
+.fixed {
+  position: fixed;
+}
+.smallPadding {
+  padding: 1rem;
+}
+.red {
+  background-color: #ce2424;
+}
+.yellow {
+  background-color: #e6b800;
+}
+.green {
+  background-color: #00b300;
+}
+.gelatine {
+  animation: gelatine 2s infinite;
+}
+@keyframes gelatine {
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+}
+.pointer {
+  cursor: pointer;
+}

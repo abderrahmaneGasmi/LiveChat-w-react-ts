@@ -1,0 +1,52 @@
+@import url("../base/variables.css");
+.header {
+  height: 5rem;
+  display: flex;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  justify-content: space-between;
+}
+.logo {
+  align-self: center;
+  margin-left: 1rem;
+  cursor: pointer;
+  user-select: none;
+}
+.btns {
+  display: flex;
+}
+.btn {
+  padding: 0.8rem;
+  margin: 0.5rem;
+  align-self: center;
+  background-color: var(--tertiary-color);
+  cursor: pointer;
+}
+.info {
+  display: flex;
+  position: relative;
+  padding: 1rem;
+}
+.info__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: var(--secondary-color);
+}
+
+.info__username {
+  padding: 0.5rem;
+  align-self: center;
+}
+.logoutpopup {
+  position: absolute;
+  top: 100%;
+  background-color: var(--tertiary-color);
+
+  left: 0;
+  right: 0;
+}
+.logoutpopup__btn {
+  padding: 2rem;
+  cursor: pointer;
+}

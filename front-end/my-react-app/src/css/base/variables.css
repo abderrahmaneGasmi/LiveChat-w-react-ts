@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #31d8c0;
+  --secondary-color: #e1f6f1;
+  --tertiary-color: #97b1ab;
+  --dark-text: #344b46;
+  --light-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  --secondary-color--withOp: #e1f6f1ad;
+}
